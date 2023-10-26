@@ -20,7 +20,7 @@ TRAINING_REQUIREMENTS = _read_reqs("requirements-training.txt")
 
 exec(open('src/open_clip/version.py').read())
 setup(
-    name='open_clip_torch',
+    name='open_clip',
     version=__version__,
     description='OpenCLIP',
     long_description=long_description,
